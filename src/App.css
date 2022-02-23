@@ -1,0 +1,64 @@
+body {
+  background-color: #62c2c8;
+}
+
+.App {
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: red;
+  background-color: #f0f0f0;
+  color: rgba(128, 128, 128, 0.788);
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bag {
+  margin-right: 5px;
+}
+
+h1, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  margin-top: 15px;
+}
+
+input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  width: 300px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  background: #65aa06;
+}
+
+.del {
+  background: #d30100;
+  margin-top: 20px;
+}
